@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    --op: "Open Sans";
+    --mo: "Montserrat";
+}
+header {
+    background-image: url("/assets/Image/greece.jpg");
+    height: 100vh;
+    background-size: 100% 100%;}
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    header .header2 h3 {
+        font: 300 52px var(--op);
+        letter-spacing: 2px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .header2  input {
+        width: 326px;
+        font: 400 16px var(--op);
+        letter-spacing: 1px;
+        color: #8b8b8b;
+        outline: none;
+        border: none;
+        padding: 10px 0 10px 17px;
+        border-radius: 7px 0 0 7px;
+    }
+    .header2 input::placeholder {
+        color: #8b8b8b;
+    }
+    .header2 form button {
+        font: bold 16px var(--op);
+        width: 122px;
+        background-color: #fd4f32;
+        padding: 10px;
+        border: none;
+        outline: none;
+        letter-spacing: 1px;
+        color: #ffffff;
+        text-transform: uppercase;
+        border-radius: 0 5px 5px 0;
+    }
+    .header2 form{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    header .header2 {
+        margin-top: 220px;
+    }
+    /* bitdi */
+    /* 2basla */
+    #City {
+        background-color: #eeeeee;
+        padding-top: 80px;
+    }
+    
+#City .p {
+    font: 400 15px var(--op);
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    margin-top: 10px;
+}
+
+#City .h1{
+    font: 400 16px var(--mo);
+    letter-spacing: 0px;
+    color: #323232;
+    text-transform: uppercase;
+}
+.metn h2{
+    font: 400 14px var(--mo);
+    letter-spacing: 0px;
+    color: #323232;
+    text-transform: uppercase;
+    margin: 20px auto
+  
+        
+    }
+    .metn p{
+        font: 400 13px var(--op);
+
+line-height: 19px;
+color: #696969;
+
+    }
+#general .seher{
+    background-color: #fff;
+    max-width: 25%;
+    margin: auto;
+    padding: 20px;
+}
+#general{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+.seher img{
+    width: 300px;
+    height: 220px;
+}
+.metn{
+    width: 300px;
+}
+/* bitdi */
+/* 3basla */
+#end{
+    background-color: #fff;
+}
+#end h3{
+    font: 300 52px var(--op);
+letter-spacing: 2px;
+color: #323232;
+text-align: left;
+margin-top: 80px;
+margin-bottom: 70px;
+}
+.paragraph{
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph-part span{
+    font: 400 16px var(--mo);
+letter-spacing: 0px;
+color: #323232;
+text-align: center;
+text-transform: uppercase;
+margin: bottom 20px; ;
+}
+
+.paragraph-part p{
+ font: 400 15px var(--op);
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+width: 280px;
+}
+#end h6{
+    font: 400 16px var(--mo);
+letter-spacing: 0px;
+color: #323232;
+text-align: center;
+text-transform: uppercase;
+margin-top: 75px;
+}
+/* end */
+/* basla4 */
+.fot input{
+    background-color: #eee;
+}
+
+.fot .header2{
+    margin-bottom: 80px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+}
+.ul h3 a{
+    font: 400 14px var(--mo);
+    letter-spacing: 0px;
+    color: #323232;
+margin-left: 20px;
+text-transform: uppercase;}
+
+    .ul{
+        display: flex;
+        justify-content: space-between;
+    }
+.par{
+    font: 400 12px var(--op);
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+}
+
